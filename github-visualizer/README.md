@@ -1,16 +1,37 @@
-# React + Vite
+# 🚀 GitVisualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, modern GitHub Profile Visualizer built to transform raw GitHub data into beautiful, interactive dashboards. Enter any GitHub username to instantly generate a comprehensive profile overview, explore repository metrics, and visualize language and commit data through dynamic charts.
 
-Currently, two official plugins are available:
+![GitVisualizer Preview](./public/preview-image.png) ## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Real-time Data Fetching:** Interacts directly with the public GitHub REST API to pull live user data, repositories, and statistics.
+* **Sleek Glassmorphism UI:** Designed with a modern, dark-mode aesthetic using Tailwind CSS and backdrop-blur utilities.
+* **Fluid Animations:** Utilizes Framer Motion for buttery-smooth page transitions, staggered list renders, and dynamic layout routing.
+* **Interactive Data Visualization:** Implements Recharts to render beautiful, responsive pie charts (for language distribution) and bar charts (for repository popularity).
+* **Responsive Design:** Fully optimized for mobile, tablet, and desktop viewing.
+* **Robust Error Handling:** Custom error states and loaders ensure a smooth user experience even when API limits are hit or invalid users are searched.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Frontend Framework:** React 18 (Bootstrapped with Vite for lightning-fast HMR)
+* **Routing:** React Router v6
+* **Styling:** Tailwind CSS
+* **Animations:** Framer Motion
+* **Data Visualization:** Recharts
+* **Icons:** Lucide React
+* **HTTP Client:** Axios
 
-## Expanding the ESLint configuration
+## 🚀 Local Development Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+* Node.js (v16 or higher)
+* npm or yarn
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/your-username/gitvisualizer.git](https://github.com/your-username/gitvisualizer.git)
+   cd gitvisualizer
