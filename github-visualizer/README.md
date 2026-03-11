@@ -33,5 +33,5 @@ To get a local copy up and running, follow these simple steps.
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/your-username/gitvisualizer.git](https://github.com/your-username/gitvisualizer.git)
-   cd gitvisualizer
+   git clone [https://github.com/Anvians/gitvisualizer.git](https://github.com/Anvians/GitVisualizer.git)
+   cd GitVisualizer
