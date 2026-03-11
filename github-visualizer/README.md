@@ -1,9 +1,9 @@
-# 🚀 GitVisualizer
+# GitVisualizer
 
 A sleek, modern GitHub Profile Visualizer built to transform raw GitHub data into beautiful, interactive dashboards. Enter any GitHub username to instantly generate a comprehensive profile overview, explore repository metrics, and visualize language and commit data through dynamic charts.
 
 
-![GitVisualizer Preview](image.png) ## ✨ Features
+![GitVisualizer Preview](image.png) ##  Features
 * **Real-time Data Fetching:** Interacts directly with the public GitHub REST API to pull live user data, repositories, and statistics.
 * **Sleek Glassmorphism UI:** Designed with a modern, dark-mode aesthetic using Tailwind CSS and backdrop-blur utilities.
 * **Fluid Animations:** Utilizes Framer Motion for buttery-smooth page transitions, staggered list renders, and dynamic layout routing.
@@ -11,7 +11,7 @@ A sleek, modern GitHub Profile Visualizer built to transform raw GitHub data int
 * **Responsive Design:** Fully optimized for mobile, tablet, and desktop viewing.
 * **Robust Error Handling:** Custom error states and loaders ensure a smooth user experience even when API limits are hit or invalid users are searched.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Frontend Framework:** React 18 (Bootstrapped with Vite for lightning-fast HMR)
 * **Routing:** React Router v6
@@ -21,7 +21,7 @@ A sleek, modern GitHub Profile Visualizer built to transform raw GitHub data int
 * **Icons:** Lucide React
 * **HTTP Client:** Axios
 
-## 🚀 Local Development Setup
+##  Local Development Setup
 
 To get a local copy up and running, follow these simple steps.
 
@@ -35,3 +35,35 @@ To get a local copy up and running, follow these simple steps.
    ```bash
    git clone https://github.com/Anvians/GitVisualizer.git
    cd GitVisualizer
+   ```
+2. **Install dependencies**
+   
+   ```bash
+   npm install
+   ```
+3. **Start the development server**
+   
+   ```bash
+   npm run dev
+   ```
+4. **Open your browser**
+Navigate to `http://localhost:5173` to see the app running.
+
+## Project Structure
+```Plaintext
+src/
+├── components/       # Reusable UI components (Navbar, Layout, ProfileCard)
+├── context/          # Global state management (GithubContext)
+├── pages/            # Route components (Home, Repository, Analysis, etc.)
+├── App.jsx           # Main application wrapper and routing logic
+├── index.css         # Tailwind directives and global styles
+└── main.jsx          # React entry point
+```
+
+## Author
+**Ankit Sharma (*Anvians*)**
+* GitHub: [Anvians](https://github.com/Anvians)
+* LinkedIn: [theanvians](https://www.linkedin.com/in/theanvians/)
+
+## License
+This project is open source and available under the [MIT License](./LICENSE).

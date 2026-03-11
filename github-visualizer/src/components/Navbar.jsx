@@ -16,7 +16,6 @@ const Navbar = () => {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           
-          {/* Logo Section */}
           <Link to="/" className="flex items-center gap-2 text-white transition-colors hover:text-blue-400">
             <Github className="h-8 w-8" />
             <span className="hidden text-xl font-bold tracking-tight sm:block">
@@ -24,7 +23,6 @@ const Navbar = () => {
             </span>
           </Link>
 
-          {/* Navigation Links with Framer Motion Active Indicator */}
           <div className="flex space-x-1 sm:space-x-4">
             {navLinks.map((link) => {
               const isActive = location.pathname === link.path || 

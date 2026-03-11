@@ -11,7 +11,6 @@ const ProfileCard = ({ profile }) => {
     >
       <div className="flex flex-col items-center gap-6 sm:flex-row sm:items-start sm:gap-8">
         
-        {/* Avatar with Glow Effect */}
         <div className="relative shrink-0">
           <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-blue-500 to-emerald-500 opacity-50 blur"></div>
           <img
