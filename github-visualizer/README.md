@@ -3,7 +3,7 @@
 A sleek, modern GitHub Profile Visualizer built to transform raw GitHub data into beautiful, interactive dashboards. Enter any GitHub username to instantly generate a comprehensive profile overview, explore repository metrics, and visualize language and commit data through dynamic charts.
 
 
-![GitVisualizer Preview](image.png) ##  Features
+![GitVisualizer Preview](\image.png) ##  Features
 * **Real-time Data Fetching:** Interacts directly with the public GitHub REST API to pull live user data, repositories, and statistics.
 * **Sleek Glassmorphism UI:** Designed with a modern, dark-mode aesthetic using Tailwind CSS and backdrop-blur utilities.
 * **Fluid Animations:** Utilizes Framer Motion for buttery-smooth page transitions, staggered list renders, and dynamic layout routing.
